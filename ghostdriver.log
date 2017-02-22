@@ -1,19 +1,19 @@
-[INFO  - 2017-02-20T08:35:11.663Z] GhostDriver - Main - running on port 52625
-[INFO  - 2017-02-20T08:35:12.840Z] Session [7f1610b0-f747-11e6-81a6-c3efe761820f] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2017-02-20T08:35:12.840Z] Session [7f1610b0-f747-11e6-81a6-c3efe761820f] - page.customHeaders:  - {}
-[INFO  - 2017-02-20T08:35:12.840Z] Session [7f1610b0-f747-11e6-81a6-c3efe761820f] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2017-02-20T08:35:12.840Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 7f1610b0-f747-11e6-81a6-c3efe761820f
-[ERROR - 2017-02-20T08:35:18.339Z] Session [7f1610b0-f747-11e6-81a6-c3efe761820f] - page.onError - msg: sea/dos-provider/0.0.6/index is not loaded! can not find module in path : https://g.alicdn.com/sea/??dos-provider/0.0.6/index.js
+[INFO  - 2017-02-20T10:52:19.592Z] GhostDriver - Main - running on port 49279
+[INFO  - 2017-02-20T10:52:20.736Z] Session [a74b5c30-f75a-11e6-ab28-e32a72e81027] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-02-20T10:52:20.736Z] Session [a74b5c30-f75a-11e6-ab28-e32a72e81027] - page.customHeaders:  - {}
+[INFO  - 2017-02-20T10:52:20.736Z] Session [a74b5c30-f75a-11e6-ab28-e32a72e81027] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-02-20T10:52:20.736Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: a74b5c30-f75a-11e6-ab28-e32a72e81027
+[ERROR - 2017-02-20T10:52:26.306Z] Session [a74b5c30-f75a-11e6-ab28-e32a72e81027] - page.onError - msg: sea/dos-provider/0.0.6/index is not loaded! can not find module in path : https://g.alicdn.com/sea/??dos-provider/0.0.6/index.js
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-02-20T08:35:18.339Z] Session [7f1610b0-f747-11e6-81a6-c3efe761820f] - page.onError - stack:
+[ERROR - 2017-02-20T10:52:26.306Z] Session [a74b5c30-f75a-11e6-ab28-e32a72e81027] - page.onError - stack:
   (anonymous function) (https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,tbc/global/0.0.8/index-min.js,tms/tb-init/6.1.0/index-min.js,sea/sitenav-global/0.6.9/global-min.js:5)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-02-20T08:35:22.122Z] Session [7f1610b0-f747-11e6-81a6-c3efe761820f] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'b.set("screenWidth","w1200")')
+[ERROR - 2017-02-20T10:52:34.691Z] Session [a74b5c30-f75a-11e6-ab28-e32a72e81027] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'b.set("screenWidth","w1200")')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-02-20T08:35:22.122Z] Session [7f1610b0-f747-11e6-81a6-c3efe761820f] - page.onError - stack:
+[ERROR - 2017-02-20T10:52:34.691Z] Session [a74b5c30-f75a-11e6-ab28-e32a72e81027] - page.onError - stack:
   c (https://g.alicdn.com//sea/sitenav-global/0.6.9/global-min.js:1)
   simpleNotify (https://g.alicdn.com/kissy/k/1.4.16/??base-min.js,attribute-min.js,event/custom-min.js,event/base-min.js,event-min.js,event/dom/base-min.js,dom/base-min.js,event/dom/focusin-min.js,node-min.js,anim-min.js,anim/base-min.js,promise-min.js,anim/timer-min.js,anim/transition-min.js:49)
   notifyInternal (https://g.alicdn.com/kissy/k/1.4.16/??base-min.js,attribute-min.js,event/custom-min.js,event/base-min.js,event-min.js,event/dom/base-min.js,dom/base-min.js,event/dom/focusin-min.js,node-min.js,anim-min.js,anim/base-min.js,promise-min.js,anim/timer-min.js,anim/transition-min.js:66)
@@ -27,4 +27,4 @@
   _handle (phantomjs://code/router_request_handler.js:78)
 
   phantomjs://platform/console++.js:263 in error
-[INFO  - 2017-02-20T08:40:11.671Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-02-20T10:57:19.591Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
