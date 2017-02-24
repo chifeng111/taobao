@@ -1,6 +1,6 @@
 __author__ = 'zhenhua'
 #coding:utf-8
-from openpyxl import Workbook, load_workbook
+from openpyxl import Workbook
 from get_html import get_page
 from spider import parser
 
