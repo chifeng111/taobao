@@ -21,4 +21,4 @@ if __name__ == '__main__':
         for j in data:
             ws.append(j)
     wb.save(filename)
-    print("爬取成功，已保持在%s文件中" %filename)
+    print("爬取成功，已保存在%s文件中" %filename)
